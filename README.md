@@ -29,7 +29,7 @@ The agent can search flights, book tickets, and save passenger complaints using 
 
 ## 📦 Installation
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/flight-assistant-agent
 cd flight-assistant-agent
@@ -56,7 +56,7 @@ bash
 python app.py
 Gradio will open in your browser automatically.
 
-🛠 Tools Overview
+## 🛠 Tools Overview
 🔍 search_flights
 Returns a list of available flights between two cities.
 
@@ -66,7 +66,7 @@ Generates a booking confirmation with a random ID.
 📝 submit_complaint
 Saves a passenger complaint to a .txt file.
 
-🧩 Agent Architecture
+##🧩 Agent Architecture
 This project uses LangGraph’s prebuilt ReAct agent, which:
 
 Reads the user message
@@ -79,7 +79,7 @@ Returns the final answer
 
 This makes the agent reliable, explainable, and easy to extend.
 
-📁 Project Structure
+## 📁 Project Structure
 Code
 flight-assistant-agent/
 │
@@ -87,14 +87,15 @@ flight-assistant-agent/
 ├── requirements.txt     # Dependencies
 ├── README.md            # Project documentation
 └── complaints/          # Saved complaint files
-🤝 Contributing
+
+##🤝 Contributing
 Pull requests are welcome.
 For major changes, please open an issue first to discuss what you’d like to improve.
 
-📜 License
+##📜 License
 MIT License
 
-⭐ Acknowledgements
+##⭐ Acknowledgements
 LangGraph for the agent framework
 
 Ollama for local model hosting
